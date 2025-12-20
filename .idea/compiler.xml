@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="new-platform" />
         <module name="old-platform" />
+        <module name="migration-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="migration-service" options="-parameters" />
       <module name="new-platform" options="-parameters" />
       <module name="old-platform" options="-parameters" />
     </option>
