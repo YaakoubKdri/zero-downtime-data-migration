@@ -27,3 +27,6 @@ management:
   metrics:
     tags:
       application: new-platform
+migration:
+  dual-write:
+    enabled: true
